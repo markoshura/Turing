@@ -1,8 +1,14 @@
 //Удалить второй символ
 aq1->aq2R
-bq1->bq2R
-bq2->BSTOP
-aq2->BSTOP
+aq2->Bq3L
+aq3->Bq3R
+Bq3->aSTOP
+bq2->Bq3L
+bq1->bq4R
+bq4->Bq5L
+bq5->Bq5R
+Bq5->bSTOP
+aq4->Bq5L
 
 //Удаляет первое вхождение a
 aq1->aq1L
