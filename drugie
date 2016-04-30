@@ -4,17 +4,6 @@ bq1->bq2R
 bq2->BSTOP
 aq2->BSTOP
 
-//Умножение на 2
-1q1->1q1R
-0q1->0q1R
-Bq1->Bq2L
-1q2->0q3L
-0q2->0q3L
-Bq2->BSTOP
-0q3->1q3L
-1q3->1q3L
-Bq3->1q2L
-
 //Удаляет первое вхождение a
 aq1->aq1L
 bq1->bq1L
